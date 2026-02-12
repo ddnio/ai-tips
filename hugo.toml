@@ -1,0 +1,42 @@
+baseURL = "https://ddnio.github.io/ai-tips/"
+languageCode = "zh-CN"
+title = "AI Tips"
+theme = "hugo-ashe"
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+description = "每天一点 AI 实战记录：工具、工作流、踩坑与复盘。"
+name = "ddnio"
+github = "ddnio"
+repo = "ddnio/ai-tips"
+
+[params.busuanzi]
+enable = false
+scriptURL = "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+
+[menu]
+[[menu.main]]
+name = "Start"
+url = "/posts/day-01-claude-code-learning-loop/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 4

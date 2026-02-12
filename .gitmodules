@@ -1,0 +1,3 @@
+[submodule "themes/hugo-ashe"]
+	path = themes/hugo-ashe
+	url = https://github.com/ddnio/hugo-ashe.git
