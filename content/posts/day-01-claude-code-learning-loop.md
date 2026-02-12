@@ -1,6 +1,7 @@
 +++
 title = "Day 01 - 用 Claude Code 建立文档驱动学习闭环"
-date = "2026-02-12T20:10:00+08:00"
+date = "2026-02-12T09:10:00+08:00"
+draft = false
 categories = ["AI学习", "Claude Code"]
 tags = ["claude-code", "workflow", "daily-note"]
 summary = "第一天先不追求全面，先建立一个可复制的学习闭环：通读文档、挑重点实践、沉淀可复用模板。"
